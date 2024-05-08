@@ -1,0 +1,324 @@
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+header { 
+  text-align: center;
+}
+nav,
+ul,
+body,
+img,
+p,
+div,
+h1,
+h3 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+nav ul li a{
+  color: #000;
+  text-decoration: none;
+  position: relative;
+  display: block;
+  background-color: #FBF8DD; /* Change background color as needed */
+  border: 1px solid #FBF8DD; /* Add border for better appearance */
+}
+
+nav ul li a:hover {
+  background-color: #ddcab8; /* Change background color on hover */
+}
+
+nav ul li a:hover {
+  color: #ff3700; /* Change text color on hover */
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  position: relative;
+}
+
+h1 {
+  text-align: left;
+  font-size: 40px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+nav {
+  position: fixed;
+  overflow: hidden;
+  background: #ddcab8;
+  -webkit-box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
+  box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
+  text-align: center;
+  width: 250px; /* Adjust width as needed */
+  height: 100%; /* Make the nav span full height */
+  top: 0; /* Position from top of viewport */
+  left: 0; /* Position from left of viewport */
+}
+
+nav img {
+  border-radius: 50%;
+  margin-top: 30px;
+  width: 170px;
+  height: 170px;
+}
+
+.headname {
+  font-size: 30px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  font-family: "Titillium Web", sans-serif;
+  line-height: 50px;
+  font-size: 20px;
+  font-size: 24px;
+  width: 100%;
+  background-color: #FBF8DD;
+  padding-top: 0px;
+}
+
+li {
+  color: #000;
+  margin: 10px;
+  
+}
+
+nav a:after {
+  border-radius: 1em;
+  border-top: 0.1em solid #494747;
+  content: "";
+  position: absolute;
+  right: 100%;
+  bottom: 0.14em;
+  left: 0;
+  display: inline-block;
+  vertical-align: middle;
+  
+}
+
+hr {
+border:dotted #c7a781 6px;
+border-bottom: none;
+width: 4%;
+}
+
+.container {
+  width: 100%;
+}
+
+.main {
+  margin-left: 350px;
+  margin-right: 90px;
+}
+
+.home {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+
+.home img {
+  margin-top: 100px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.namestart {
+  font-family: "Varela Round", sans-serif;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.nameabout {
+  font-family: "Titillium Web", sans-serif;
+
+  line-height: 30px;
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.socialicon img {
+  width: 40px;
+  height: 40px;
+  margin-top: 30px;
+}
+
+.about {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.skills {
+  border-radius: 20px;
+  height: 30px;
+  width: 600px;
+  background-color: #ddcab8;
+  display: flex;
+  align-items: center;
+}
+
+.skill {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.html {
+  border-radius: 20px;
+  text-align: right;
+  font-size: 25px;
+  height: 100%;
+  width: 60%;
+  background-color: #E9C874;
+}
+
+.js {
+  border-radius: 20px;
+
+  text-align: right;
+  font-size: 25px;
+  height: 100%;
+  width: 45%;
+  background-color: #E9C874;
+}
+.php {
+  border-radius: 20px;
+  text-align: right;
+  font-size: 25px;
+  height: 100%;
+  width: 80%;
+  background-color: #E9C874;
+}
+
+.wp {
+  text-align: right;
+  font-size: 25px;
+  height: 100%;
+  border-radius: 20px;
+  width: 30%;
+  background-color: #E9C874;
+}
+
+
+
+.services {
+  text-align: left;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.service-details div {
+  width: 70%;
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+.service-details div img {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.service-details h3 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 26px;
+}
+
+.service-details p {
+  font-size: 20px;
+  margin-right: 10px;
+  font-family: "Varela Round", sans-serif;
+}
+
+.blog {
+  font-size: 20px;
+  margin-right: 10px;
+  padding-bottom: 30px;
+  font-family: "Varela Round", sans-serif;
+}
+
+.blog h1 {
+  margin-left: 40px;
+}
+
+.contact {
+  margin-left: 40px;
+  
+}
+
+.contact-socialicon {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  
+}
+
+/* /////////////////////footer///////////////////////////////// */
+
+footer p {
+  font-family: "Titillium Web", sans-serif;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-top: 00px;
+  text-align: right;
+}
+
+/* //////////////////////////////////////////////////////////////////////// */
+
+@media screen and (max-width: 1440px) {
+  nav {
+    margin-left: 0;
+  }
+
+  .skills {
+    width: 100%;
+  }
+  .service-details div {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
+
+  .main {
+    margin: 0;
+  }
+
+  .skills {
+    width: 100%;
+  }
+
+  .service-details div {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 60px;
+  }
+}
+
+
